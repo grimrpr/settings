@@ -136,6 +136,7 @@ set t_Co=256
 color Mustang
 
 " configure tags - add additional tags here or comment out not-used ones
+set tags+=~/.vim/tags/ros
 set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/gl
 "set tags+=~/.vim/tags/sdl

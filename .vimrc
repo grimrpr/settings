@@ -145,7 +145,7 @@ set tags+=~/.vim/tags/qt4
 map <C-F12> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 "toggle taglist
-map <C-M> :TlistToggle<cr>
+nmap <silent> <C-l> :TlistToggle<CR>
 
 " OmniCppComplete
 let OmniCpp_NamespaceSearch = 1
